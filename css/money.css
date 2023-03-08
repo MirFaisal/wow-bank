@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap");
+#main .text {
+  margin-block: 100px;
+}
+#main .text .hero-text {
+  font-family: "Lora", serif;
+}
+#main .status .Deposit .text,
+#main .status .Withdrow .text,
+#main .status .Balance .text {
+  margin-block: 10px;
+  font-size: 20px;
+}
+#main .status .Deposit .text,
+#main .status .Withdrow .text,
+#main .status .Balance .text {
+  margin-block: 10px;
+}
+#main .status .Deposit .diposit-amount,
+#main .status .Withdrow .withdrow-amount,
+#main .status .Balance .current-banlance {
+  margin-block: 50px;
+}
+#main .activity .text {
+  margin-block: 20px;
+}
+#main .activity input {
+  margin-block: 20px;
+}

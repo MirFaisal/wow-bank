@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap");
+#main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#main .wrapper {
+  border-radius: 50px;
+  box-shadow: 10px 10px 73px 18px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 10px 10px 73px 18px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 10px 10px 73px 18px rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+}
+#main .wrapper .right .text .hero-text {
+  font-size: 60px;
+  font-family: "Lora", serif;
+  font-weight: 700;
+}
+#main .wrapper .right .form label {
+  padding-block-start: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#main .wrapper .right .form input {
+  width: 75%;
+  height: 40px;
+}
+#main .wrapper .right .form button {
+  margin-block: 20px;
+  font-size: 25px;
+}
