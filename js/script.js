@@ -4,7 +4,7 @@ function login() {
   const passField = document.getElementById("password");
   if (emailField.value.toLowerCase() === "mirfaisal08@gmail.com") {
     if (passField.value == "12345678") {
-      location.href = "amount.html";
+      location.href = "./amount.html";
     } else {
       window.alert("Please enter your correct Password");
     }
